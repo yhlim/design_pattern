@@ -20,4 +20,21 @@ public interface Iterator {
 	 */
 	public abstract Object next();
 	
+	/**
+	 * 현재 index 값 리턴
+	 * @return
+	 */
+	public abstract int index();
+	
+	/**
+	 * 맨처음 요소를 리턴
+	 * @return
+	 */
+	public abstract Object first();
+	
+	/**
+	 * 맨마지막 요소를 리턴
+	 * @return
+	 */
+	public abstract Object last();
 }
